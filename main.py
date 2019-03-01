@@ -77,6 +77,7 @@ def tick():
 
     #process list
     for column, row in checkList:
+
         c = count(column, row)
         if(board[column][row] != False):
             if (c < 2 or c > 3):
